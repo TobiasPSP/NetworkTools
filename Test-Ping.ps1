@@ -13,6 +13,8 @@
             Test-Ping
             another example
             can have as many examples as you like
+            .LINK
+            https://github.com/TobiasPSP/NetworkTools/blob/main/Test-Ping.ps1
     #>
     param
     (
