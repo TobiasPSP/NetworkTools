@@ -2,12 +2,12 @@
 {
     <#
             .SYNOPSIS
-            Sends ICMP request and waits for a maximum of -TimeoutMilliseconds milliseconds for an answer
+            Sends ICMP request and waits for a maximum of -TimeoutMillisec milliseconds for an answer
             .EXAMPLE
             Test-Ping -ComputerName microsoft.com
             pings microsoft.com
             .EXAMPLE
-            '127.0.0.1','google.de','99.99.99.99' | Test-Ping -TimeoutMilliseconds 2000
+            '127.0.0.1','google.de','99.99.99.99' | Test-Ping -TimeoutMillisec 2000
             pings three uris and waits a maximum of 3 seconds for an answer
             .LINK
             https://github.com/TobiasPSP/NetworkTools/blob/main/Test-Ping.ps1
