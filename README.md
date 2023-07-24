@@ -9,4 +9,4 @@ This module is a collection of useful network-related **PowerShell** functions:
 * **GetNetworkPrinterInfo**: uses *SNMP* to query a network printer for extended properties such as paper types, current state and serial number
 * **Compact-Path**: shortens a long path to a desired maximal length and uses ellipses instead
   
-All content here is licensed under [MIT license](https://choosealicense.com/licenses/mit/).
+All content here is licensed under the [MIT License](./license.txt) - see license details of [MIT licenses](https://choosealicense.com/licenses/mit/).
