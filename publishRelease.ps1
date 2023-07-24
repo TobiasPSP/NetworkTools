@@ -42,7 +42,7 @@ $privateScripts = Get-Childitem -Path $Path -Directory -Exclude Modules, Release
 $listOfPublicScriptNames = $publicScripts | ForEach-Object { [system.io.path]::GetFileNameWithoutExtension($_.Name) }
 
 # create module manifest file:
-New-ModuleManifest -Path "$modulePath\$modulname.psd1" -CompanyName bwi -ModuleVersion $version -RootModule loader.psm1 -Description 'bla' -Copyright '2023 bwi' -FunctionsToExport $listOfPublicScriptNames
+New-ModuleManifest -Path "$modulePath\$modulname.psd1" -CompanyName Kammer -ModuleVersion $version -RootModule loader.psm1 -Description 'bla' -Copyright '2023 Kammer' -FunctionsToExport $listOfPublicScriptNames
 
 # copy public scripts into the module root folder:
 $publicScripts | Copy-Item  -Destination $modulePath -Force

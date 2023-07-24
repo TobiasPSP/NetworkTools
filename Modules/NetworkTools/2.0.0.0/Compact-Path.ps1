@@ -1,20 +1,6 @@
 ﻿
 function Compact-Path
 {
-    <#
-        .SYNOPSIS
-        verkürzt einen Befehl auf eine maximale Anzahl von Zeichen 
-
-        .EXAMPLE
-        Compact-Path -Path 'c:\test\abc\willibald.txt' -Length 10
-        verkürzt den Pfad auf 10 Zeichen
-
-
-        .LINK
-        https://github.com/TobiasPSP/NetworkTools
-    #>
-
-
   param
   (
     [Parameter(Mandatory,ValueFromPipeline,ValueFromPipelineByPropertyName)]
